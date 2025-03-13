@@ -1,0 +1,25 @@
+
+.newclass{
+    color: orange;
+    font-weight: 400;
+}
+.h1{
+    font-weight: 200;
+    font-size: 50px;
+    font-family: "Outfit", sans-serif;
+}
+.div1{
+    font-family: "Outfit", sans-serif;
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 3%;
+    margin-top: 2%;
+}
+.div1 img{
+    width: 50%;
+   
+}
+.h4{
+    font-weight: 300;
+}
