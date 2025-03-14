@@ -99,19 +99,59 @@ body{
     
 }
 .pro{
+    font-family: "Outfit", sans-serif;
     width: 40%;
     float: left;
-    margin-left: 10%;
+    margin-left: 5%;
 }
 .noob{
+    font-family: "Outfit", sans-serif;
     float: right;
     width: 40%;
-    margin-right: 8%;
+    margin-right: 5%;
 }
 .prohigh{
     color: orange;
+    font-weight: 300;
 }
 .noobhigh{
     color: orange;
+    font-weight: 300;
 }
-
+.box-shadow{
+    box-shadow: 10px 10px 40px gray;
+    height: 40%;
+    padding: 30px;
+    border-radius: 10px;
+    
+}
+.h3{
+    font-weight: 400 ;
+    stroke: 5px black;
+    text-shadow: 10px 5px 7px gray;
+}
+.photo{
+    color : lightcoral;
+}
+.exp-up{
+    margin-left: 5%;
+    font-family: serif;
+}
+.exp{
+    background-image: url(images1/BG4.png);
+    background-repeat: no-repeat;
+    background-position: 0px -30px;
+    background-size: 25%;
+}
+#pro-id{
+    border-left: 10px solid  ;
+    border-image: linear-gradient(180deg, rgb(185, 61, 70), rgb(145,73,142));;
+    border-image-slice: 1;
+    border-radius: 10px;
+}
+#noob-id{
+    border-left: 10px solid  ;
+    border-image: linear-gradient(180deg, rgb(51, 13, 105), rgb(48,201,205));;
+    border-image-slice: 1;
+    border-radius: 10px;
+}
