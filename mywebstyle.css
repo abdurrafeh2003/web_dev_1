@@ -36,7 +36,7 @@
 }
 section{
     height: 750px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 body{
     margin: 0%;
@@ -57,39 +57,61 @@ body{
 
 
 
-.div2 img{
-    float: left ;
-    margin-left: 5%;
-    width: 30%;
-
-}
-.h2{
-    float: right;
-    width: 50%;
-    font-size: 50px;
-    font-family:"Outfit", sans-serif ;
-    font-weight: 250;
-    padding-top: 50;
-}
-.p2{
-float: right;
-width: 30%;
-margin-right: 20%;
-font-family:"Outfit", sans-serif ;
-font-weight: 180;
-
+.div2{
+    padding-right: 2%;
+    float:right ;
+    width: 40%;
+    margin-right: 8%;
+    font-family: "Outfit", sans-serif;
+    font-weight: 200;
+    
 }
 .high2{
     color: rgb(153, 41, 234);
+    font-weight: 300;
+}
+.h2{
+    margin-top: 20%;
+    font-size: 50px;
+    font-weight: 500;
 }
 .sec2h3{
+    font-weight: 300;
+}
+
+.div2 img{
+    float: left;
+    width: 70%;
+    margin-left: 15%;
+}
+.bttn2{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, rgb(185, 61, 70), rgb(145,73,142));
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+}
+.sec2{
+    background-image: url(images1/bg3.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    
+}
+.pro{
+    width: 40%;
+    float: left;
+    margin-left: 10%;
+}
+.noob{
     float: right;
-    width: 50%;
+    width: 40%;
+    margin-right: 8%;
 }
-.div2 h3{
-    font-family:"Outfit", sans-serif ;
-    font-weight: 150;
+.prohigh{
+    color: orange;
 }
-.btt2{
-    float: right;
+.noobhigh{
+    color: orange;
 }
+
